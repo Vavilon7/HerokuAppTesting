@@ -30,4 +30,34 @@ public class HomePage extends BasePage {
         click(framesLink);
         click(iframeLink);
     }
+    @FindBy(linkText = "Multiple Windows")
+    WebElement multipleWindowsLink;
+
+    public void openMultipleWindowsPage() {
+        click(multipleWindowsLink);
+    }
+    @FindBy(linkText = "Dropdown")
+    WebElement dropdownLink;
+
+    public void openDropdownPage() {
+        click(dropdownLink);
+    }
+    @FindBy(linkText = "Drag and Drop")
+    WebElement dragAndDropLink;
+
+    public void openDragAndDropPage() {
+        click(dragAndDropLink);
+    }
+    @FindBy(linkText = "Context Menu")
+    WebElement contextMenuLink;
+
+    public void openContextMenuPage() {
+        click(contextMenuLink);
+    }
+    @FindBy(linkText = "Horizontal Slider")
+    WebElement sliderLink;
+
+    public void openSliderPage() {
+        click(sliderLink);
+    }
 }

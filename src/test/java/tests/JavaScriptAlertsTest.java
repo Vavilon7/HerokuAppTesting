@@ -53,7 +53,6 @@ public class JavaScriptAlertsTest extends TestBase {
         } else {
             System.out.println("Ошибка: Введенное слово '" + text + "' не найдено в результате.");
         }
-
         assertTrue(isMessageCorrect);
     }
 }

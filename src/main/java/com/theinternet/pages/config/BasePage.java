@@ -23,5 +23,19 @@ public class BasePage {
         return element.getText().contains(text);
     }
 
+    public void pause(int millis) {
+        try {
+            Thread.sleep(millis);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+    }
+    public void scrollWithJS(int x, int y) {
+        js.executeScript("window.scrollBy(" + x + "," + y + ")");
+    }
 
+    public void clickWithJS(WebElement element, int x, int y) {
+        scrollWithJS(x,y);
+        click(element);
+    }
 }
