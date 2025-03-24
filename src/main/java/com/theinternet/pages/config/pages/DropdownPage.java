@@ -14,15 +14,18 @@ public class DropdownPage extends BasePage {
     @FindBy(id = "dropdown")
     WebElement dropdown;
 
-    public void selectOption(String optionText) {
+    public DropdownPage selectOption(String optionText) {
         Select select = new Select(dropdown);
         select.selectByVisibleText(optionText);
+        return this;
     }
 
-    public void verifySelectedOption(String expectedText) {
+    public DropdownPage verifySelectedOption(String expectedText) {
         Select select = new Select(dropdown);
         String selectedText = select.getFirstSelectedOption().getText();
-        Assertions.assertEquals(expectedText, selectedText);
+        Assertions.assertEquals(expectedText, selectedText,
+                "Ожидалось, что будет выбрана опция '" + expectedText + "', но выбрана '" + selectedText + "'");
+        return this;
     }
 
 }

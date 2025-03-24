@@ -26,5 +26,7 @@ public class DragAndDropPage extends BasePage {
         System.out.println("Колонка B после дропа содержит: " + columnB.getText());
         return this;
     }
-
+    public String getColumnBText() {
+        return columnB.getText();
+    }
 }

@@ -5,6 +5,8 @@ import com.theinternet.pages.config.pages.HomePage;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class DragAndDropTest extends TestBase{
     DragAndDropPage dragAndDropPage;
 
@@ -16,6 +18,8 @@ public class DragAndDropTest extends TestBase{
 
     @Test
     public void dragAtoBTest() {
-        dragAndDropPage.dragAtoB().printColumnText();
+        dragAndDropPage.dragAtoB();
+        String columnBText = dragAndDropPage.getColumnBText();
+        assertEquals("A", columnBText, "Ожидалось, что колонка B будет содержать 'A' после перетаскивания");
     }
 }

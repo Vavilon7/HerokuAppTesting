@@ -19,11 +19,11 @@ public class ContextMenuPage extends BasePage {
         return this;
     }
 
-    public ContextMenuPage handleAlert() {
+    public String handleAlert() {
         Alert alert = driver.switchTo().alert();
-        System.out.println("Текст алерта: " + alert.getText());
+        String alertText = alert.getText();
+        System.out.println("Текст алерта: " + alertText);
         alert.accept();
-        return this;
+        return alertText;
     }
-
 }

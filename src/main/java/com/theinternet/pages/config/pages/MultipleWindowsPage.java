@@ -30,11 +30,9 @@ public class MultipleWindowsPage extends BasePage {
         driver.switchTo().window(tabs.get(index));
     }
 
-    public void printHeaderText() {
+    public String getHeaderText() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         wait.until(ExpectedConditions.visibilityOf(newWindowHeader));
-
-        String actualText = newWindowHeader.getText();
-        System.out.println("Заголовок на новой вкладке: " + actualText);
+        return newWindowHeader.getText();
     }
 }

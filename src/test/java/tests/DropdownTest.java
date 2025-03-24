@@ -18,8 +18,7 @@ public class DropdownTest extends TestBase{
     @ParameterizedTest
     @ValueSource(strings = {"Option 1", "Option 2"})
     public void testSelectDropdownOption(String option) {
-        dropdownPage.selectOption(option);
-        dropdownPage.verifySelectedOption(option);
+        dropdownPage.selectOption(option).verifySelectedOption(option);
     }
 
 }

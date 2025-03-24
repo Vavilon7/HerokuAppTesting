@@ -6,6 +6,8 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class MultipleWindowsTest extends TestBase{
     MultipleWindowsPage multipleWindowsPage;
 
@@ -16,10 +18,12 @@ public class MultipleWindowsTest extends TestBase{
     }
 
     @Test
-    @DisplayName("Открыть новую вкладку и вывести заголовок")
+    @DisplayName("Открыть новую вкладку и проверить заголовок")
     public void testMultipleWindows() {
         multipleWindowsPage.clickHere();
         multipleWindowsPage.switchToNewTab(1);
-        multipleWindowsPage.printHeaderText(); // Без assert
+        String actualHeader = multipleWindowsPage.getHeaderText();
+        assertEquals("New Window", actualHeader, "Заголовок на новой вкладке не совпадает с ожидаемым");
+        System.out.println("Фактический заголовок: " + actualHeader);
     }
 }
