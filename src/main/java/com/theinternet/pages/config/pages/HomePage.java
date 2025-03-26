@@ -60,4 +60,18 @@ public class HomePage extends BasePage {
     public void openSliderPage() {
         click(sliderLink);
     }
+    @FindBy(linkText = "Broken Images")
+    WebElement brokenImagesLink;
+
+    public void openBrokenImagesPage() {
+        clickWithJS(brokenImagesLink, 0, 300);
+    }
+
+    @FindBy(linkText = "Status Codes")
+    WebElement statusCodesLink;
+
+    public void openStatusCodesPage() {
+        clickWithJS(statusCodesLink, 0, 300);
+    }
+
 }
