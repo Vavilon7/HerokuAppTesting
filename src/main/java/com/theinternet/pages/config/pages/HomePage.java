@@ -73,5 +73,10 @@ public class HomePage extends BasePage {
     public void openStatusCodesPage() {
         clickWithJS(statusCodesLink, 0, 300);
     }
+    @FindBy(linkText = "File Upload")
+    WebElement fileUpload;
+    public void openFileUploadPage(){
+        click(fileUpload);
+    }
 
 }
