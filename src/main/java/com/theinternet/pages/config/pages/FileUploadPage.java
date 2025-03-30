@@ -24,12 +24,6 @@ public class FileUploadPage extends BasePage {
     @FindBy(id = "uploaded-files")
     WebElement uploadedFileName;
 
-    // Загрузка файла
-    public FileUploadPage uploadFile(String path) {
-        uploadPicture.sendKeys(path);
-        return this;
-    }
-
     // Отправка формы
     public FileUploadPage submit() {
         uploadButton.click();
