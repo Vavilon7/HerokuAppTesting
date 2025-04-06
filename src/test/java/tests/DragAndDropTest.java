@@ -3,6 +3,7 @@ package tests;
 import com.theinternet.pages.config.pages.DragAndDropPage;
 import com.theinternet.pages.config.pages.HomePage;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -17,6 +18,7 @@ public class DragAndDropTest extends TestBase{
     }
 
     @Test
+    @Tag("smoke")
     public void dragAtoBTest() {
         dragAndDropPage.dragAtoB();
         String columnBText = dragAndDropPage.getColumnBText();

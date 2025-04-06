@@ -4,6 +4,7 @@ import com.theinternet.pages.config.pages.HomePage;
 import com.theinternet.pages.config.pages.MultipleWindowsPage;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -18,6 +19,7 @@ public class MultipleWindowsTest extends TestBase{
     }
 
     @Test
+    @Tag("smoke")
     @DisplayName("Открыть новую вкладку и проверить заголовок")
     public void testMultipleWindows() {
         multipleWindowsPage.clickHere();
