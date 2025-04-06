@@ -1,0 +1,12 @@
+tests\ContextMenuTest.class
+tests\FileUploadTest.class
+tests\IframeTest.class
+tests\SliderTest.class
+tests\DragAndDropTest.class
+tests\NestedFramesTest.class
+tests\JavaScriptAlertsTest.class
+tests\MultipleWindowsTest.class
+tests\StatusCodesTest.class
+tests\DropdownTest.class
+tests\BrokenImagesTest.class
+tests\TestBase.class

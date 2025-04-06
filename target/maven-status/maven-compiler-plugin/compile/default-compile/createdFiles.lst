@@ -1,0 +1,15 @@
+com\theinternet\pages\config\pages\JavaScriptAlertsPage.class
+com\theinternet\pages\config\pages\DragAndDropPage.class
+com\theinternet\pages\config\BasePage.class
+com\theinternet\pages\config\pages\StatusCodesPage.class
+com\theinternet\pages\config\pages\SliderPage.class
+com\theinternet\pages\config\pages\BrokenImagesPage.class
+com\theinternet\pages\config\pages\ContextMenuPage.class
+com\theinternet\pages\config\pages\IframePage.class
+com\theinternet\pages\config\pages\HomePage.class
+com\theinternet\pages\config\pages\DropdownPage.class
+com\theinternet\pages\config\pages\NestedFramesPage.class
+com\theinternet\pages\config\ApplicationManager.class
+com\theinternet\pages\config\pages\FileUploadPage.class
+com\theinternet\pages\config\pages\MultipleWindowsPage.class
+com\theinternet\pages\config\MyListener.class
