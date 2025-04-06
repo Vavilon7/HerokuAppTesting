@@ -1,0 +1,5 @@
+09:03:10.900 [main] INFO  c.t.pages.config.MyListener -- Open url -https://the-internet.herokuapp.com
+09:03:14.641 [main] INFO  tests.TestBase -- Start test -> Optional[public void tests.SliderTest.moveSliderTest()]
+09:03:14.740 [main] INFO  c.t.pages.config.MyListener -- We have to click element -[[ChromeDriver: chrome on windows (3c7336aeb5ec8cd5bda4829c77ef0e73)] -> link text: Horizontal Slider]
+09:03:17.054 [main] INFO  tests.TestBase -- Stop test
+09:03:17.055 [main] INFO  tests.TestBase -- **************************************************************

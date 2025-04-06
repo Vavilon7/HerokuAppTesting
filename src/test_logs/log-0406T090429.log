@@ -1,0 +1,20 @@
+ 09:04:32.678 [main] INFO  c.t.pages.config.MyListener -- Open url -https://the-internet.herokuapp.com
+09:04:35.603 [main] INFO  tests.TestBase -- Start test -> Optional[public void tests.NestedFramesTest.testRightFrame()]
+09:04:35.703 [main] INFO  c.t.pages.config.MyListener -- We have to click element -[[ChromeDriver: chrome on windows (5fa8c780fe535b27d8aea9a77902caf9)] -> link text: Nested Frames]
+09:04:36.863 [main] INFO  tests.TestBase -- Stop test
+09:04:36.864 [main] INFO  tests.TestBase -- **************************************************************
+09:04:38.939 [main] INFO  c.t.pages.config.MyListener -- Open url -https://the-internet.herokuapp.com
+09:04:41.010 [main] INFO  tests.TestBase -- Start test -> Optional[public void tests.NestedFramesTest.testLeftFrame()]
+09:04:41.087 [main] INFO  c.t.pages.config.MyListener -- We have to click element -[[ChromeDriver: chrome on windows (a6c88c9cb85517a66aa8d603569a3c3e)] -> link text: Nested Frames]
+09:04:42.306 [main] INFO  tests.TestBase -- Stop test
+09:04:42.306 [main] INFO  tests.TestBase -- **************************************************************
+09:04:43.877 [main] INFO  c.t.pages.config.MyListener -- Open url -https://the-internet.herokuapp.com
+09:04:45.890 [main] INFO  tests.TestBase -- Start test -> Optional[public void tests.NestedFramesTest.testBottomFrame()]
+09:04:45.960 [main] INFO  c.t.pages.config.MyListener -- We have to click element -[[ChromeDriver: chrome on windows (70efd0f08cfe9edba1e8b45404c78562)] -> link text: Nested Frames]
+09:04:47.157 [main] INFO  tests.TestBase -- Stop test
+09:04:47.158 [main] INFO  tests.TestBase -- **************************************************************
+09:04:48.727 [main] INFO  c.t.pages.config.MyListener -- Open url -https://the-internet.herokuapp.com
+09:04:52.423 [main] INFO  tests.TestBase -- Start test -> Optional[public void tests.NestedFramesTest.testMiddleFrame()]
+09:04:52.490 [main] INFO  c.t.pages.config.MyListener -- We have to click element -[[ChromeDriver: chrome on windows (60b2493c612598fe42ece2586435d823)] -> link text: Nested Frames]
+09:04:54.004 [main] INFO  tests.TestBase -- Stop test
+09:04:54.004 [main] INFO  tests.TestBase -- **************************************************************
