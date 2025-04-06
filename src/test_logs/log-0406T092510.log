@@ -1,0 +1,6 @@
+09:25:14.254 [main] INFO  c.t.pages.config.MyListener -- Open url -https://the-internet.herokuapp.com
+09:25:16.501 [main] INFO  tests.TestBase -- Start test -> Optional[public void tests.MultipleWindowsTest.testMultipleWindows()]
+09:25:16.588 [main] INFO  c.t.pages.config.MyListener -- We have to click element -[[ChromeDriver: chrome on windows (20c1009ae6d36b4bd966ceb730ec9e06)] -> link text: Multiple Windows]
+09:25:17.051 [main] INFO  c.t.pages.config.MyListener -- We have to click element -[[ChromeDriver: chrome on windows (20c1009ae6d36b4bd966ceb730ec9e06)] -> link text: Click Here]
+09:25:17.769 [main] INFO  tests.TestBase -- Stop test
+09:25:17.769 [main] INFO  tests.TestBase -- **************************************************************

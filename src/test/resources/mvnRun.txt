@@ -1,16 +1,26 @@
 1. class run
-mvn clean test -Dtest=ButtonsTests
+Запускает все тесты из класса SliderTest.
+mvn clean test -Dtest=SliderTest
+
 
 2.method run
-mvn clean test -Dtest=ButtonsTests#doubleClickTest
+Запускает один конкретный метод testMultipleWindows из класса MultipleWindowsTest.
+mvn clean test -Dtest=MultipleWindowsTest#testMultipleWindows
 
 3.with select browser
-mvn clean test -Dtest=ButtonsTests#doubleClickTest -Dbrowser=firefox
+Запускает определённый тест в выбранном браузере (здесь — Firefox).
+🔸 Браузер передаётся как параметр и используется в твоём коде (например, через System.getProperty("browser")).
+mvn clean test -Dtest=MultipleWindowsTest#testMultipleWindows -Dbrowser=firefox
 
 4.groups with tag
+ Запускает все тесты, отмеченные группой/тегом smoke в Firefox.
 mvn clean test -Dgroups=smoke -Dbrowser=firefox
 
 5.parametrized method
+ Запускает параметризованные тесты с передачей значений username и password.
 mvn clean test -Dgroups=parameters -Dusername=Ivan7 -Dpassword=77705Vika$
 
+6. generate report only
+ Генерирует HTML-отчёт по уже пройденным тестам, без повторного их запуска.
+📁 Отчёт будет в target/site/surefire-report.html
 mvn surefire-report:report-only

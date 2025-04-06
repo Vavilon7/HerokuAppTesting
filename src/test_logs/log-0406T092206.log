@@ -1,0 +1,6 @@
+09:22:11.021 [main] INFO  c.t.pages.config.MyListener -- Open url -https://the-internet.herokuapp.com
+09:22:12.997 [main] INFO  tests.TestBase -- Start test -> Optional[public void tests.BrokenImagesTest.testBrokenImages()]
+09:22:13.125 [main] INFO  c.t.pages.config.MyListener -- We have to click element -[[ChromeDriver: chrome on windows (e43723bb31d42bb9f870ab9c5c64e836)] -> link text: Broken Images]
+09:22:13.715 [main] INFO  c.t.pages.config.MyListener -- We find elements 4
+09:22:16.157 [main] INFO  tests.TestBase -- Stop test
+09:22:16.158 [main] INFO  tests.TestBase -- **************************************************************

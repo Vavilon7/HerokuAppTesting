@@ -1,11 +1,11 @@
 1. class run
-mvn clean test -Dtest=ButtonsTests
+mvn clean test -Dtest=SliderTest
 
 2.method run
-mvn clean test -Dtest=ButtonsTests#doubleClickTest
+mvn clean test -Dtest=MultipleWindowsTest#testMultipleWindows
 
 3.with select browser
-mvn clean test -Dtest=ButtonsTests#doubleClickTest -Dbrowser=firefox
+mvn clean test -Dtest=MultipleWindowsTest#testMultipleWindows -Dbrowser=firefox
 
 4.groups with tag
 mvn clean test -Dgroups=smoke -Dbrowser=firefox

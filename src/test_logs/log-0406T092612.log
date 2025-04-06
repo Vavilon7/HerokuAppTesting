@@ -1,0 +1,6 @@
+09:26:20.645 [main] INFO  c.t.pages.config.MyListener -- Open url -https://the-internet.herokuapp.com
+09:26:27.564 [main] INFO  tests.TestBase -- Start test -> Optional[public void tests.MultipleWindowsTest.testMultipleWindows()]
+09:26:27.935 [main] INFO  c.t.pages.config.MyListener -- We have to click element -[[FirefoxDriver: firefox on windows (c5a76430-b446-42da-9588-67fa7faaea45)] -> link text: Multiple Windows]
+09:26:28.673 [main] INFO  c.t.pages.config.MyListener -- We have to click element -[[FirefoxDriver: firefox on windows (c5a76430-b446-42da-9588-67fa7faaea45)] -> link text: Click Here]
+09:26:31.272 [main] INFO  tests.TestBase -- Stop test
+09:26:31.272 [main] INFO  tests.TestBase -- **************************************************************
